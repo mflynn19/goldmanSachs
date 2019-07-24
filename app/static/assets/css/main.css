@@ -15,10 +15,26 @@
    color: white;
    text-align: center;
 }
+.loc{
+	background-color: #081940;
+	color: white;
+	text-align: center;
+	height:300px;
+	font-size:40px;
+}
+.butt {
+  border: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
+code, del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
@@ -32,6 +48,12 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+	
+img{
+	max-width:100%;
+	height: auto;
+	
+}
 
 
 article, aside, details, figcaption, figure,
@@ -42,10 +64,6 @@ body {
 	line-height: 1;
 }
 
-.image-with-overlay-content__image-holder img {
-    width: 100%;
-    height: auto;
-}
 
 ol, ul {
 	list-style: none;
@@ -3628,9 +3646,48 @@ input, select, textarea {
 		}
 		.centeredAB {
   			position: absolute;
-  			top: 400%;
+  			top: 330%;
   			left: 50%;
   			transform: translate(-50%, -50%);
-  			font-size: 12pt;
-  			color: red;
+  			font-size: 14pt;
+  			color: white;
+  			text-align: center;
 		}
+		
+		.centeredAC {
+  			position: absolute;
+  			top: 425%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+  			font-size: 14pt;
+  			color: white;
+  			text-align: center;
+		}
+		
+		.centeredAD {
+  			position: absolute;
+  			top: 510%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+  			font-size: 14pt;
+  			color: white;
+  			text-align: center;
+		}
+		
+		.centeredAE {
+  			position: absolute;
+  			top: 620%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+  			font-size: 14pt;
+  			color: white;
+  			text-align: center;
+		}
+		
+input {
+  width: 50%;
+}
+
+#testBar {
+	display: inline-block;
+}
